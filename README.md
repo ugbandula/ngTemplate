@@ -8,15 +8,15 @@ Once you have that you can start filling in the gaps and really think about the 
 
 ## Guide
 
-The basics are simple. Each directory has it's own file with a short description about the type of code that you should put into it. Below is the rythm and reason for each decision I've made per directory.
+The basics are simple. Each directory has it's own file with a short description about the type of code that you should put into it. Below is a more detail description of each directory.
 
 ### Root
 
-There are 3 directories here; app, css and img. Lets not insult anyone's intelligence here!
+There are 3 directories here; app, css and img. Lets not insult anyone's intelligence here and skip css and img.
 
 ### App
 
-Skipping `css` and `img`, they are obvious, we have `app`. `app` is the home of all our JavaScript *and* HTML. Because each component and feature of our application is self-contained they each own their own HTML templates as you'll see later. `app` is also the home of our good friend `app.js`.
+`app` is the home of all our JavaScript *and* HTML. Because each component and feature of our application is self-contained they each own their own HTML templates as you'll see later. `app` is also the home of our good friend `app.js`.
 
 ### Libs
 
